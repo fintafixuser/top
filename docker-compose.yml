@@ -1,0 +1,8 @@
+my-gotty:
+  hostname: mygotty
+  ports:
+  - 4040:4040
+  tty: true
+  image: modenaf360/gotty:latest
+  stdin_open: true
+  tty: true       
